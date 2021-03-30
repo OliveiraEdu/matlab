@@ -50,5 +50,5 @@ valor1 = input('Informe o salário mensal: ');
 valor2 = input('Informe o total de despesas mensais: ');
 salarioLiquido = valor1-valor2;
 alvo = 1000000/salarioLiquido;
-x = ['Você atingirá 1 milhão em: ', num2str(alvo),' anos'];
+x = ['Você atingirá 1 milhão em: ', num2str(alvo),' meses'];
 disp (x)
