@@ -10,7 +10,7 @@ clear all;
 valor1 = input('Informe o valor do litro de gasolina: ');
 valor2 = input('Qual o valor que deseja abastecer? ');
 resultado = valor2 / valor1;
-x = ['Você conseguirá abaster ', num2str(resultado),' litros'];
+x = ['Você conseguirá abastecer ', num2str(resultado),' litros'];
 disp (x)
 
 %% Lista de exercícios 01 - Atividade 02
