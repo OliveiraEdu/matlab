@@ -1,6 +1,5 @@
 % Atividade 1 - Estendida
-nomeAluno = input('Entre com a nome do aluno: ','s')% 's' indica uma tring
-
+nomeAluno = input('Entre com a nome do aluno: ','s')
 nota1 = input('Entre com a primeira nota: ');
 nota2 = input('Entre com a segunda nota: ');
 
