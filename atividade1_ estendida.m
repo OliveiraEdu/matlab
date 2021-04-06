@@ -1,4 +1,7 @@
 % Atividade 1 - Estendida
+clc;
+clear all;
+
 nomeAluno = input('Entre com a nome do aluno: ','s')
 nota1 = input('Entre com a primeira nota: ');
 nota2 = input('Entre com a segunda nota: ');
