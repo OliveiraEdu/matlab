@@ -139,3 +139,45 @@ elseif (notaMedia >=0) && (notaMedia <=5)
     fprintf('reprovado com nota final %.2f\n', notaMedia);
 end
 
+%%
+%Exercício 11
+clc;
+clear all;
+s1 = input('informe o numero: ');
+
+if mod(s1,2) == 0 
+    fprintf('O numero %.2f é par \n', s1);
+elseif fprintf('O numero %.2f é impar \n', s1);
+end
+%%
+%Exercício 12
+clc;
+clear all;
+s1 = input('informe o primeiro numero: ');
+s2 = input('informe o segundo numero: ');
+s3 = input('informe o sinal da operação: ','s')
+
+s4 = '+'
+s5 = '-'
+s6 = '*'
+s7 = '/'
+
+tf1 = strcmp(s3,s4);
+tf2 = strcmp(s3,s5);
+tf3 = strcmp(s3,s6);
+tf4 = strcmp(s3,s7);
+
+
+if tf1 == 1
+    soma = s1 + s2
+elseif tf2 == 1
+    sub = s1 - s2
+elseif tf3 == 1
+    prod = s1 * s2
+elseif tf4 == 1
+    if s2 == 0
+        fprintf ('Denominador zero inválido, execute novamente \n')
+    else
+        quo = s1 / s2
+    end
+end
