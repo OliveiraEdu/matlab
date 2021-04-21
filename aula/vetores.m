@@ -1,3 +1,10 @@
+%Mestrado Modelagem Matemática e Computacional - UNIJUI
+%Disciplina: Pensamento Computacional
+%Aluno: Eduardo Costa de Oliveira
+%21-Abr-2021
+
+% Lista  de Exercicios - Vetores
+
 %%
 %Lista de Vetores
 %Exercício 1
@@ -12,6 +19,7 @@ for  n = 1:30
 end
 
 disp (v);
+
 %%
 %Exercício 2
 
