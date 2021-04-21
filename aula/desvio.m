@@ -181,3 +181,107 @@ elseif tf4 == 1
         quo = s1 / s2
     end
 end
+
+%%
+%Exercício 13
+clc;
+clear all;
+s1 = input('numero 1: ');
+s2 = input('numero 2: ');
+s3 = input('numero 3: ');
+s4 = input('numero 4: ');
+s5 = input('numero 5: ');
+
+A=[s1 s2 s3 s4 s5];
+
+m1 = max(A)
+m2 = min(A)
+
+%%
+%Exercício 14
+clc;
+clear all;
+s1 = input('numero 1: ');
+s2 = input('numero 2: ');
+s3 = input('numero 3: ');
+s4 = input('numero 4: ');
+s5 = input('numero 5: ');
+
+m1 = ((s1+s2+s3+s4+s5)/5);
+
+fprintf ('media: %2f \n', m1)
+
+fprintf ('os valores abaixo são maiores que a média: \n')
+
+if s1 > m1
+    disp (s1)   
+end
+if s2 > m1
+    disp (s2)
+end
+if s3 > m1
+    disp (s3)
+end
+if s4 > m1
+    disp (s4)
+end
+if s5 > m1
+    disp (s5)
+end
+
+
+%%
+%Exercício 15
+clc;
+clear all;
+s1 = input('Insira um número de 4 dígitos: ');
+
+s2 = s1 / 100
+
+s3 = floor(s2)
+
+s4 = (s2 - s3) * 100
+
+s5 = floor (s4)
+
+s6 = s3 + s4
+
+s7 = s6^2
+
+if s1 == s7
+    fprintf('O numero %d obedece a esta característica \n',s1)
+end
+
+
+%%
+%Exercício 15 - Variante
+%Iteração da variável n no intervalo entre 1000 e 9999 para obter os
+%números que obedecem a característica.
+
+clc;
+clear all;
+
+v = [];
+for  n = 1000:9999
+
+s2 = n / 100;
+
+s3 = floor(s2);
+
+s4 = (s2 - s3) * 100;
+
+s5 = floor (s4);
+
+s6 = s3 + s4;
+
+s7 = s6^2;
+
+if n == s7
+    v = [v ; s7];
+end
+end
+
+fprintf('Os números abaixo obedecem a esta característica: \n')
+disp (v);
+
+% Final dos Exercícios
