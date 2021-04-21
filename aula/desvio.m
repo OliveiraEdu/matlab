@@ -1,4 +1,10 @@
-%% Lista  de Exercicios - Desvio Incondicional
+%Mestrado Modelagem Matemática e Computacional - UNIJUI
+%Disciplina: Pensamento Computacional
+%Aluno: Eduardo Costa de Oliveira
+%21-Abr-2021
+
+% Lista  de Exercicios - Desvio Incondicional
+
 %%Exercício 1
 clc;
 clear all;
