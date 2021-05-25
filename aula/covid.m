@@ -1,0 +1,1 @@
+clear;clc;x =  csvread (COVID IJUI_Graficos_Gráfico de linhas.csv)
